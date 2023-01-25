@@ -3,14 +3,24 @@
 }
 
 div{
-    background-color: #a1b5cB;
+    background-color: #000000;
     text-align: center;
 }
 
 /* ----- Etiqueta nombre ---- */
 #nombre{
     font-weight: bold;
-    margin-top: 20%;
+    font-size: 30px;
+    color: white;
+}
+
+#profesion{
+    font-size: 20px;
+    color: white;
+}
+
+#texto{
+    color: white;
 }
 
 /* ---- Estilo de la foto de perfil ---- */
@@ -18,9 +28,9 @@ div{
     #fotoPerfil{
         position: absolute;
         width: 15%;
-        border-radius: 100%;
+        border-radius: 80%;
         box-shadow: 3px 3px 3px grey;
-        left: 5%;
+        left: 3%;
         top: 550px;
     }
 }
@@ -29,9 +39,9 @@ div{
     #fotoPerfil{
         position: absolute;
         width: 30%;
-        border-radius: 100%;
+        border-radius: 80%;
         box-shadow: 3px 3px 3px grey;
         left: 33%;
-        top: 630px;
+        top: 600px;
     }
 }
