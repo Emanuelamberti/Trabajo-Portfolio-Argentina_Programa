@@ -1,3 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    margin-right: 0.9em;
+}
+
+.redes img{
+    margin: 3px;
+}
+
 #logoAP{
     width: 150px;
+}
+
+img{
+    width: 40px;
+}
+
+.btn{
+    border-width: medium;
+    margin-left: 10px;
+}
+
+/* --- VISTA CELULAR ---  */
+@media(max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .redes img{
+        margin: 0.3em;
+    }
 }
